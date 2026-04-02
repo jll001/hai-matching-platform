@@ -375,7 +375,7 @@ app.post('/api/match', async (req, res) => {
       }
 
       // Success rate (15%)
-      const successScore = Math.round((senior.success_rate / 100) * 15;
+      const successScore = Math.round((senior.success_rate / 100) * 15);
       rawScore += successScore;
       reasons.push(`${successScore}% success rate match`);
 
