@@ -1,0 +1,6 @@
+==> Verifying app config
+Validating /root/.openclaw/workspace/matching-platform-backend/fly.toml
+[32m✓[0m Configuration is valid
+--> Verified app config
+Warning: Metrics send issue: metrics send failed with status 401
+Error: verify: invalid token: all tokens missing third-party discharge tokens; no verified tokens; token a02784b8-3d28-54e9-8d9b-dc56b2e147e0: missing third-party discharge token (Request ID: 01KN5XR5CFAHZ346N3CV32TNR2-sin) (Trace ID: e6b84e9e95c4ac22d9b7911d81d3c464)
